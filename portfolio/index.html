@@ -110,6 +110,16 @@ h2 em{font-style:italic;color:var(--or2)}
 .volta{display:inline-flex;align-items:center;gap:8px;color:var(--mut);text-decoration:none;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
 .volta:hover{color:var(--or)}
 .acoes{display:flex;flex-wrap:wrap;gap:12px}
+
+.phg{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:40px;align-items:end}
+.plogo{position:relative;justify-self:end;width:min(100%,340px)}
+.plogo img{width:100%;height:auto;filter:drop-shadow(0 18px 40px rgba(0,0,0,.6))}
+.plogo .gar{position:absolute;right:-16px;top:-20px;width:120px;height:120px;filter:drop-shadow(0 12px 26px rgba(0,0,0,.55))}
+.nums div.g{border-color:rgba(255,154,46,.6);background:rgba(255,138,31,.12)}
+.fgar{display:flex;justify-content:center;margin:0 auto 24px}
+.fgar .gar{width:130px;height:130px}
+@media(max-width:900px){.phg{grid-template-columns:1fr;gap:10px}.plogo{order:-1;justify-self:start;width:210px;margin-top:18px}.plogo .gar{top:auto;right:-110px;bottom:30px;width:98px;height:98px}}
+@media(max-width:380px){.plogo{width:180px}.plogo .gar{right:-88px;width:90px;height:90px}}
 </style>
 </head>
 <body>
@@ -125,12 +135,15 @@ h2 em{font-style:italic;color:var(--or2)}
 <nav class="menu" id="menu" aria-label="Menu"><a href="../">Início</a><a href="#galeria">Obras</a><a href="#videos">Vídeos</a><a href="../#contato">Contato</a><a class="btn btn-or" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#">Pedir orçamento</a></nav>
 
 <section class="ph">
-  <div class="w">
+  <div class="w phg">
+    <div>
     <a class="volta" href="../">‹ Voltar ao site</a>
     <p class="eyebrow" style="margin-top:26px">Portfólio</p>
     <h1>Obras que <em>assinamos</em></h1>
     <p>Portas, janelas, fachadas, box e guarda-corpo em alumínio e vidro, entregues em Uberaba e região. Escolha um tipo de obra e toque na foto para ampliar.</p>
-    <div class="nums"><div><b>97</b><span>fotos de obras</span></div><div><b>7</b><span>tipos de trabalho</span></div><div><b>4,5★</b><span>no Google</span></div></div>
+    <div class="nums"><div><b>97</b><span>fotos de obras</span></div><div><b>7</b><span>tipos de trabalho</span></div><div><b>4,5★</b><span>no Google</span></div><div class="g"><b>5 anos</b><span>de garantia</span></div></div>
+    </div>
+    <div class="plogo"><img src="../img/logo-destaque.png" width="711" height="726" alt="Logo Esquadrias Uberaba: portas, janelas, alumínio e vidros"><svg class="gar" viewBox="0 0 200 200" role="img" aria-label="Selo premium: 5 anos de garantia em todos os produtos"><defs><linearGradient id="gop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#ff9a2e"/><stop offset="1" stop-color="#d95f00"/></linearGradient><path id="arp" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><circle cx="100" cy="100" r="98" fill="url(#gop)"/><circle cx="100" cy="100" r="68" fill="#0e0e0f" stroke="#ffd27a" stroke-width="2"/><text font-family="Jost,sans-serif" font-size="14.5" font-weight="700" letter-spacing="3.2" fill="#150a00"><textPath href="#arp" startOffset="0">SELO PREMIUM ★ QUALIDADE GARANTIDA ★</textPath></text><text x="100" y="104" text-anchor="middle" font-family="'Bodoni Moda',Georgia,serif" font-size="62" font-weight="600" fill="#ffb454">5</text><text x="100" y="126" text-anchor="middle" font-family="Jost,sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#f4efe8">ANOS</text><text x="100" y="143" text-anchor="middle" font-family="Jost,sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#ffb454">DE GARANTIA</text></svg></div>
   </div>
 </section>
 
@@ -253,9 +266,10 @@ h2 em{font-style:italic;color:var(--or2)}
 
 <section class="final">
   <div class="w">
+    <div class="fgar"><svg class="gar" viewBox="0 0 200 200" role="img" aria-label="Selo premium: 5 anos de garantia em todos os produtos"><defs><linearGradient id="gof" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#ff9a2e"/><stop offset="1" stop-color="#d95f00"/></linearGradient><path id="arf" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><circle cx="100" cy="100" r="98" fill="url(#gof)"/><circle cx="100" cy="100" r="68" fill="#0e0e0f" stroke="#ffd27a" stroke-width="2"/><text font-family="Jost,sans-serif" font-size="14.5" font-weight="700" letter-spacing="3.2" fill="#150a00"><textPath href="#arf" startOffset="0">SELO PREMIUM ★ QUALIDADE GARANTIDA ★</textPath></text><text x="100" y="104" text-anchor="middle" font-family="'Bodoni Moda',Georgia,serif" font-size="62" font-weight="600" fill="#ffb454">5</text><text x="100" y="126" text-anchor="middle" font-family="Jost,sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#f4efe8">ANOS</text><text x="100" y="143" text-anchor="middle" font-family="Jost,sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#ffb454">DE GARANTIA</text></svg></div>
     <p class="eyebrow">Orçamento</p>
     <h2>Gostou de alguma <em>obra</em>?</h2>
-    <p>Mande a foto que você gostou pelo WhatsApp e a gente faz igual, sob medida para o seu espaço.</p>
+    <p>Mande a foto que você gostou pelo WhatsApp e a gente faz igual, sob medida para o seu espaço. Todos os produtos com 5 anos de garantia.</p>
     <div class="acoes"><a class="btn btn-or" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Pedir orçamento</a><a class="btn btn-line" href="../">Voltar ao site</a></div>
   </div>
 </section>

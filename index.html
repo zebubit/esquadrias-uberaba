@@ -197,6 +197,22 @@ section.s{padding:96px 0}
 .rv.in{opacity:1;transform:none}
 .rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}.hero .bg{transform:none!important}}
+
+/* logo em destaque + selo de garantia */
+.hgrid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px;align-items:end}
+.hlogo{position:relative;justify-self:end;width:min(100%,420px)}
+.hlogo img{width:100%;height:auto;filter:drop-shadow(0 18px 40px rgba(0,0,0,.6))}
+.hlogo::before{content:"";position:absolute;inset:-6%;background:radial-gradient(closest-side,rgba(11,11,12,.85) 40%,transparent);z-index:-1}
+.hlogo .gar{position:absolute;right:-18px;top:-22px;width:140px;height:140px;filter:drop-shadow(0 12px 26px rgba(0,0,0,.55));}
+.gar text{paint-order:normal}
+.selo.g{border-color:rgba(255,154,46,.6);background:rgba(255,138,31,.16)}
+.selo.g b{color:var(--or2);letter-spacing:0}
+.fgar{display:flex;justify-content:center;margin:0 auto 24px}
+.fgar .gar{width:140px;height:140px;filter:drop-shadow(0 10px 24px rgba(0,0,0,.5))}
+@media(max-width:900px){.hgrid{grid-template-columns:1fr;gap:18px}.hlogo{order:-1;justify-self:start;width:230px}.hlogo .gar{top:auto;right:-114px;bottom:34px;width:104px;height:104px}}
+@media(max-width:380px){.hlogo{width:180px}.hlogo .gar{right:-100px;width:92px;height:92px}}
+.nav a,.topo .btn{white-space:nowrap}
+@media(max-width:1320px) and (min-width:961px){.nav{gap:16px}.nav a{font-size:14px;letter-spacing:.07em}.topo .btn{padding:0 18px}}
 </style>
 </head>
 <body>
@@ -214,7 +230,8 @@ section.s{padding:96px 0}
 <main>
 <section class="hero">
   <div class="bg" id="herobg" role="img" aria-label="Fachada residencial à noite com grandes esquadrias de vidro e alumínio"></div>
-  <div class="w">
+  <div class="w hgrid">
+    <div class="htxt">
     <p class="eyebrow">Uberaba · Minas Gerais</p>
     <h1>Esquadrias que <em>valorizam</em> cada detalhe</h1>
     <p class="l">Portas, janelas, portões e vidros em alumínio, com fabricação própria. Projeto sob medida, do orçamento à instalação.</p>
@@ -222,7 +239,9 @@ section.s{padding:96px 0}
       <a class="btn btn-or" data-wa="Olá! Vim pelo site da Esquadrias Uberaba e quero um orçamento." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.8 8.6c.3 3.1 2.6 5.4 5.8 5.8l1.1-1.2-1.7-1-.8.6c-.8-.4-1.5-1.1-1.9-1.9l.6-.8-1-1.7z"/></svg>Pedir meu orçamento</a>
       <a class="btn btn-line" href="#obras">Ver obras</a>
     </div>
-    <div class="selos"><span class="selo"><b aria-hidden="true">★★★★★</b>4,5 no Google · 27 avaliações</span><span class="selo">Mais de 10 anos de mercado</span><span class="selo">Fabricação própria</span></div>
+    <div class="selos"><span class="selo g"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#ffb454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>5 anos de garantia em todos os produtos</span><span class="selo"><b aria-hidden="true">★★★★★</b>4,5 no Google · 27 avaliações</span><span class="selo">Mais de 10 anos de mercado</span><span class="selo">Fabricação própria</span></div>
+    </div>
+    <div class="hlogo"><img src="img/logo-destaque.png" width="711" height="726" alt="Logo Esquadrias Uberaba: portas, janelas, alumínio e vidros" fetchpriority="high"><svg class="gar" viewBox="0 0 200 200" role="img" aria-label="Selo premium: 5 anos de garantia em todos os produtos"><defs><linearGradient id="goh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#ff9a2e"/><stop offset="1" stop-color="#d95f00"/></linearGradient><path id="arh" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><circle cx="100" cy="100" r="98" fill="url(#goh)"/><circle cx="100" cy="100" r="68" fill="#0e0e0f" stroke="#ffd27a" stroke-width="2"/><text font-family="Jost,sans-serif" font-size="14.5" font-weight="700" letter-spacing="3.2" fill="#150a00"><textPath href="#arh" startOffset="0">SELO PREMIUM ★ QUALIDADE GARANTIDA ★</textPath></text><text x="100" y="104" text-anchor="middle" font-family="'Bodoni Moda',Georgia,serif" font-size="62" font-weight="600" fill="#ffb454">5</text><text x="100" y="126" text-anchor="middle" font-family="Jost,sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#f4efe8">ANOS</text><text x="100" y="143" text-anchor="middle" font-family="Jost,sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#ffb454">DE GARANTIA</text></svg></div>
   </div>
   <span class="rola" aria-hidden="true">Role para conhecer</span>
 </section>
@@ -351,9 +370,10 @@ section.s{padding:96px 0}
 
 <section class="final">
   <div class="w rv">
+    <div class="fgar"><svg class="gar" viewBox="0 0 200 200" role="img" aria-label="Selo premium: 5 anos de garantia em todos os produtos"><defs><linearGradient id="gof" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#ff9a2e"/><stop offset="1" stop-color="#d95f00"/></linearGradient><path id="arf" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><circle cx="100" cy="100" r="98" fill="url(#gof)"/><circle cx="100" cy="100" r="68" fill="#0e0e0f" stroke="#ffd27a" stroke-width="2"/><text font-family="Jost,sans-serif" font-size="14.5" font-weight="700" letter-spacing="3.2" fill="#150a00"><textPath href="#arf" startOffset="0">SELO PREMIUM ★ QUALIDADE GARANTIDA ★</textPath></text><text x="100" y="104" text-anchor="middle" font-family="'Bodoni Moda',Georgia,serif" font-size="62" font-weight="600" fill="#ffb454">5</text><text x="100" y="126" text-anchor="middle" font-family="Jost,sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#f4efe8">ANOS</text><text x="100" y="143" text-anchor="middle" font-family="Jost,sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#ffb454">DE GARANTIA</text></svg></div>
     <p class="eyebrow">Orçamento</p>
     <h2>Seu projeto com <em>acabamento</em> de primeira</h2>
-    <p>Conte o que você precisa e receba um orçamento sob medida. Atendimento rápido e prazo cumprido.</p>
+    <p>Todos os produtos com 5 anos de garantia. Conte o que você precisa e receba um orçamento sob medida.</p>
     <div class="acoes"><a class="btn btn-or" data-wa="Olá! Vim pelo site da Esquadrias Uberaba e quero um orçamento." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Pedir meu orçamento</a></div>
   </div>
 </section>
