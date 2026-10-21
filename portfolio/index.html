@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Portfólio de obras | Esquadrias Uberaba</title>
+<meta name="description" content="Portfólio da Esquadrias Uberaba: portas de correr, portas pivotantes, janelas, fachadas, box, guarda-corpo e venezianas em alumínio e vidro, em Uberaba e região.">
+<meta name="robots" content="noindex,nofollow"><!-- DEMONSTRACAO: remover ao publicar de verdade -->
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="../img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--bg:#0b0b0c;--bg2:#121214;--card:#18181b;--linha:#2a2a2e;--txt:#f4efe8;--mut:#b3aea6;--or:#ff8a1f;--or2:#ffb454;--ink:#150a00;--tit:'Bodoni Moda',Georgia,serif;--corpo:'Jost',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}
+body{font-family:var(--corpo);font-size:17px;line-height:1.6;color:var(--txt);background:var(--bg);overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.w{max-width:1180px;margin:0 auto;padding:0 22px}
+.eyebrow{font:600 13px/1 var(--corpo);letter-spacing:.24em;text-transform:uppercase;color:var(--or)}
+h1,h2,h3{font-family:var(--tit);font-weight:500;line-height:1.05}
+h2{font-size:clamp(34px,5.4vw,60px)}
+h2 em{font-style:italic;color:var(--or2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;border-radius:999px;font:600 16.5px/1 var(--corpo);letter-spacing:.04em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,border-color .25s,color .25s;touch-action:manipulation}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.btn-or{background:linear-gradient(120deg,#ff7a00,#ffa63d);color:var(--ink);box-shadow:0 10px 34px rgba(255,122,0,.3)}
+.btn-or:hover{box-shadow:0 14px 44px rgba(255,122,0,.5);transform:translateY(-2px)}
+.btn-line{border-color:rgba(244,239,232,.38);color:var(--txt)}
+.btn-line:hover{border-color:var(--or);color:var(--or)}
+.btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+.prog{position:fixed;left:0;top:0;height:3px;width:100%;z-index:60;background:linear-gradient(90deg,var(--or),var(--or2));transform:scaleX(0);transform-origin:0 50%}
+.topo{position:fixed;left:0;right:0;top:0;z-index:50;transition:background .35s,border-color .35s;border-bottom:1px solid transparent}
+.topo.on{background:rgba(11,11,12,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--linha)}
+.topo .w{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:14px}
+.marca{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marca img{width:46px;height:46px;border-radius:50%;background:#0e0e0f;border:2px solid var(--or);object-fit:contain;padding:4px}
+.marca b{display:block;font:600 19px/1.05 var(--corpo);letter-spacing:.2em;text-transform:uppercase}
+.marca span{display:block;font:500 12.5px/1.2 var(--corpo);color:var(--or2);letter-spacing:.3em;text-transform:uppercase}
+.nav{display:flex;gap:28px}
+.nav a{font:500 15px/1 var(--corpo);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--mut);padding:12px 2px;transition:color .2s}
+.nav a:hover{color:var(--or)}
+.topo .btn{min-height:46px;padding:0 22px;font-size:15px}
+.burger{display:none;width:48px;height:48px;border-radius:12px;border:1px solid var(--linha);background:rgba(24,24,27,.7);align-items:center;justify-content:center}
+.burger svg{width:24px;height:24px;stroke:var(--txt);stroke-width:2;fill:none;stroke-linecap:round}
+.menu{display:none}
+@media(max-width:960px){.nav,.topo .btn.desk{display:none}.burger{display:inline-flex}
+ .menu.on{display:flex;flex-direction:column;position:fixed;inset:78px 0 0 0;z-index:49;background:rgba(11,11,12,.97);padding:24px 22px;gap:6px}
+ .menu a{font:500 22px/1 var(--corpo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:20px 4px;border-bottom:1px solid var(--linha)}
+ .menu .btn{margin-top:18px;border:0}}
+
+
+.cab{max-width:760px;margin-bottom:46px}
+.cab h2{margin:14px 0 14px}
+.cab p{color:var(--mut);font-size:18px}
+.final{text-align:center;padding:110px 0;background:radial-gradient(60% 80% at 50% 0%,rgba(255,138,31,.22),transparent 70%),var(--bg2);border-top:1px solid var(--linha)}
+.final h2{max-width:18ch;margin:14px auto 20px}
+.final p{color:var(--mut);max-width:52ch;margin:0 auto 30px;font-size:18px}
+.final .acoes{justify-content:center}
+.rodape{padding:34px 0 40px;border-top:1px solid var(--linha);color:var(--mut);font-size:15px}
+.rodape .w{display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:space-between;align-items:center}
+.rodape a{text-decoration:none}.rodape .zb{color:#e6bd4f;font-weight:600}
+.demo{text-align:center;font-size:13px;color:var(--mut);padding:0 22px 26px}
+.zap{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:40;width:62px;height:62px;border-radius:50%;background:linear-gradient(120deg,#ff7a00,#ffa63d);display:grid;place-items:center;box-shadow:0 10px 30px rgba(255,122,0,.5);transition:transform .25s}
+.zap:hover{transform:scale(1.07)}
+.zap svg{width:30px;height:30px;stroke:var(--ink);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.lb{position:fixed;inset:0;z-index:80;background:rgba(5,5,6,.97);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:94vw;max-height:86svh;width:auto;height:auto;object-fit:contain;border-radius:8px}
+.lb button{position:absolute;width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.14);font-size:28px;color:#fff;display:grid;place-items:center;border:0;cursor:pointer}
+.lb .x{top:calc(14px + env(safe-area-inset-top));right:14px}.lb .pv{left:12px;top:50%;margin-top:-27px}.lb .nx{right:12px;top:50%;margin-top:-27px}
+.lb .c{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom));left:0;right:0;text-align:center;color:var(--mut);font-size:14.5px}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}.hero .bg{transform:none!important}}
+.s{padding:70px 0}
+.ph{position:relative;padding:150px 0 50px;overflow:hidden;background:radial-gradient(70% 90% at 80% 0%,rgba(255,138,31,.18),transparent 70%),var(--bg)}
+.ph h1{font-size:clamp(44px,8vw,92px);margin:16px 0 18px}
+.ph h1 em{font-style:italic;color:var(--or2)}
+.ph p{color:var(--mut);font-size:18.5px;max-width:58ch}
+.nums{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.nums div{border:1px solid var(--linha);background:var(--card);border-radius:16px;padding:14px 20px;min-width:130px}
+.nums b{display:block;font:600 34px/1 var(--tit);color:var(--or)}
+.nums span{font-size:14px;color:var(--mut)}
+.chips{position:sticky;top:78px;z-index:30;background:rgba(11,11,12,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-block:1px solid var(--linha)}
+.chips .w{display:flex;gap:8px;overflow-x:auto;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
+.chips .w::-webkit-scrollbar{display:none}
+.chips button{flex:none;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--linha);background:var(--card);color:var(--txt);font:500 15px/1 var(--corpo);cursor:pointer;white-space:nowrap;transition:background .2s,border-color .2s,color .2s}
+.chips button i{font-style:normal;color:var(--mut);font-size:13px;margin-left:4px}
+.chips button:hover{border-color:var(--or)}
+.chips button.on{background:linear-gradient(120deg,#ff7a00,#ffa63d);color:var(--ink);border-color:transparent}
+.chips button.on i{color:var(--ink)}
+.gal{columns:3;column-gap:14px;margin-top:30px}
+.gal button{position:relative;display:block;width:100%;margin:0 0 14px;break-inside:avoid;border-radius:18px;overflow:hidden;border:1px solid var(--linha);background:var(--card);cursor:zoom-in;padding:0}
+.gal button img{width:100%;height:auto;transition:transform .6s}
+.gal button:hover img{transform:scale(1.05)}
+.gal button span{position:absolute;left:10px;bottom:10px;font:500 12.5px/1 var(--corpo);letter-spacing:.06em;color:#fff;background:rgba(11,11,12,.72);padding:7px 10px;border-radius:999px;opacity:0;transition:opacity .3s}
+.gal button:hover span{opacity:1}
+.gal button.esc{display:none}
+@media(max-width:900px){.gal{columns:2}}
+@media(max-width:480px){.gal{column-gap:10px}.gal button{margin-bottom:10px;border-radius:14px}.chips{top:78px}}
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.vids video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:18px;border:1px solid var(--linha);background:#000}
+@media(max-width:700px){.vids{grid-template-columns:repeat(3,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.vids video{scroll-snap-align:start}}
+.volta{display:inline-flex;align-items:center;gap:8px;color:var(--mut);text-decoration:none;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+.volta:hover{color:var(--or)}
+.acoes{display:flex;flex-wrap:wrap;gap:12px}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<header class="topo" id="topo">
+  <div class="w">
+    <a class="marca" href="../" aria-label="Esquadrias Uberaba, voltar ao site"><img src="../img/logo-mark.png" alt="" width="46" height="46"><span><b>Esquadrias</b><span>Uberaba</span></span></a>
+    <nav class="nav" aria-label="Principal"><a href="../">Início</a><a href="#galeria">Obras</a><a href="#videos">Vídeos</a><a href="../#contato">Contato</a></nav>
+    <a class="btn btn-or desk" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Pedir orçamento</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<nav class="menu" id="menu" aria-label="Menu"><a href="../">Início</a><a href="#galeria">Obras</a><a href="#videos">Vídeos</a><a href="../#contato">Contato</a><a class="btn btn-or" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#">Pedir orçamento</a></nav>
+
+<section class="ph">
+  <div class="w">
+    <a class="volta" href="../">‹ Voltar ao site</a>
+    <p class="eyebrow" style="margin-top:26px">Portfólio</p>
+    <h1>Obras que <em>assinamos</em></h1>
+    <p>Portas, janelas, fachadas, box e guarda-corpo em alumínio e vidro, entregues em Uberaba e região. Escolha um tipo de obra e toque na foto para ampliar.</p>
+    <div class="nums"><div><b>97</b><span>fotos de obras</span></div><div><b>7</b><span>tipos de trabalho</span></div><div><b>4,5★</b><span>no Google</span></div></div>
+  </div>
+</section>
+
+<div class="chips" id="galeria"><div class="w" role="toolbar" aria-label="Filtrar por tipo de obra"><button type="button" class="on" data-f="todas">Todas <i>97</i></button><button type="button" data-f="correr">Portas de correr e vãos <i>34</i></button><button type="button" data-f="portas">Portas <i>16</i></button><button type="button" data-f="janelas">Janelas <i>15</i></button><button type="button" data-f="fachadas">Fachadas <i>7</i></button><button type="button" data-f="box">Box e espelhos <i>7</i></button><button type="button" data-f="guarda">Guarda-corpo <i>5</i></button><button type="button" data-f="venez">Venezianas e portões <i>13</i></button></div></div>
+
+<section class="s" style="padding-top:10px">
+  <div class="w">
+    <div class="gal" id="gal">
+<button type="button" data-c="correr" data-g="fotos/8.webp"><img src="fotos/8-p.webp" width="720" height="543" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/2.webp"><img src="fotos/2-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/3.webp"><img src="fotos/3-p.webp" width="542" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/4.webp"><img src="fotos/4-p.webp" width="720" height="523" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/7.webp"><img src="fotos/7-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/10.webp"><img src="fotos/10-p.webp" width="598" height="708" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/11.webp"><img src="fotos/11-p.webp" width="720" height="540" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/12.webp"><img src="fotos/12-p.webp" width="464" height="464" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/13.webp"><img src="fotos/13-p.webp" width="617" height="665" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/17.webp"><img src="fotos/17-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/45.webp"><img src="fotos/45-p.webp" width="629" height="701" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/46.webp"><img src="fotos/46-p.webp" width="427" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/48.webp"><img src="fotos/48-p.webp" width="720" height="458" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/55.webp"><img src="fotos/55-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/58.webp"><img src="fotos/58-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/60.webp"><img src="fotos/60-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/62.webp"><img src="fotos/62-p.webp" width="542" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/70.webp"><img src="fotos/70-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/75.webp"><img src="fotos/75-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/80.webp"><img src="fotos/80-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/81.webp"><img src="fotos/81-p.webp" width="720" height="323" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/82.webp"><img src="fotos/82-p.webp" width="323" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/83.webp"><img src="fotos/83-p.webp" width="323" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/84.webp"><img src="fotos/84-p.webp" width="540" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/85.webp"><img src="fotos/85-p.webp" width="720" height="540" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/87.webp"><img src="fotos/87-p.webp" width="720" height="323" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/89.webp"><img src="fotos/89-p.webp" width="540" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/92.webp"><img src="fotos/92-p.webp" width="720" height="540" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/93.webp"><img src="fotos/93-p.webp" width="540" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/94.webp"><img src="fotos/94-p.webp" width="540" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/131.webp"><img src="fotos/131-p.webp" width="720" height="540" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/147.webp"><img src="fotos/147-p.webp" width="323" height="720" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/149.webp"><img src="fotos/149-p.webp" width="720" height="323" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="correr" data-g="fotos/6.webp"><img src="fotos/6-p.webp" width="720" height="542" alt="Porta de correr de vidro com esquadria de alumínio" loading="lazy" decoding="async"><span>Portas de correr e vãos</span></button>
+<button type="button" data-c="portas" data-g="fotos/164.webp"><img src="fotos/164-p.webp" width="720" height="542" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/18.webp"><img src="fotos/18-p.webp" width="720" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/28.webp"><img src="fotos/28-p.webp" width="582" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/35.webp"><img src="fotos/35-p.webp" width="526" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/39.webp"><img src="fotos/39-p.webp" width="467" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/40.webp"><img src="fotos/40-p.webp" width="498" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/50.webp"><img src="fotos/50-p.webp" width="540" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/57.webp"><img src="fotos/57-p.webp" width="542" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/61.webp"><img src="fotos/61-p.webp" width="542" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/66.webp"><img src="fotos/66-p.webp" width="720" height="542" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/74.webp"><img src="fotos/74-p.webp" width="542" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/96.webp"><img src="fotos/96-p.webp" width="540" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/99.webp"><img src="fotos/99-p.webp" width="540" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/112.webp"><img src="fotos/112-p.webp" width="630" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/163.webp"><img src="fotos/163-p.webp" width="542" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="portas" data-g="fotos/19.webp"><img src="fotos/19-p.webp" width="465" height="720" alt="Porta de alumínio sob medida" loading="lazy" decoding="async"><span>Portas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/32.webp"><img src="fotos/32-p.webp" width="591" height="665" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/16.webp"><img src="fotos/16-p.webp" width="720" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/29.webp"><img src="fotos/29-p.webp" width="512" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/30.webp"><img src="fotos/30-p.webp" width="403" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/31.webp"><img src="fotos/31-p.webp" width="399" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/44.webp"><img src="fotos/44-p.webp" width="720" height="626" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/86.webp"><img src="fotos/86-p.webp" width="540" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/88.webp"><img src="fotos/88-p.webp" width="540" height="720" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/90.webp"><img src="fotos/90-p.webp" width="720" height="540" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/95.webp"><img src="fotos/95-p.webp" width="720" height="540" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/111.webp"><img src="fotos/111-p.webp" width="591" height="665" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/133.webp"><img src="fotos/133-p.webp" width="680" height="510" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/136.webp"><img src="fotos/136-p.webp" width="720" height="540" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/139.webp"><img src="fotos/139-p.webp" width="720" height="540" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="janelas" data-g="fotos/148.webp"><img src="fotos/148-p.webp" width="720" height="323" alt="Janela de alumínio e vidro" loading="lazy" decoding="async"><span>Janelas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/27.webp"><img src="fotos/27-p.webp" width="630" height="720" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/14.webp"><img src="fotos/14-p.webp" width="720" height="720" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/26.webp"><img src="fotos/26-p.webp" width="604" height="679" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/37.webp"><img src="fotos/37-p.webp" width="720" height="543" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/41.webp"><img src="fotos/41-p.webp" width="652" height="518" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/43.webp"><img src="fotos/43-p.webp" width="474" height="720" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="fachadas" data-g="fotos/65.webp"><img src="fotos/65-p.webp" width="542" height="720" alt="Fachada com esquadrias de alumínio e vidro" loading="lazy" decoding="async"><span>Fachadas</span></button>
+<button type="button" data-c="box" data-g="fotos/161.webp"><img src="fotos/161-p.webp" width="323" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/33.webp"><img src="fotos/33-p.webp" width="324" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/34.webp"><img src="fotos/34-p.webp" width="494" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/36.webp"><img src="fotos/36-p.webp" width="492" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/67.webp"><img src="fotos/67-p.webp" width="542" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/73.webp"><img src="fotos/73-p.webp" width="542" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="box" data-g="fotos/160.webp"><img src="fotos/160-p.webp" width="323" height="720" alt="Box de vidro e espelho para banheiro" loading="lazy" decoding="async"><span>Box e espelhos</span></button>
+<button type="button" data-c="guarda" data-g="fotos/15.webp"><img src="fotos/15-p.webp" width="720" height="720" alt="Guarda-corpo de vidro" loading="lazy" decoding="async"><span>Guarda-corpo</span></button>
+<button type="button" data-c="guarda" data-g="fotos/68.webp"><img src="fotos/68-p.webp" width="720" height="542" alt="Guarda-corpo de vidro" loading="lazy" decoding="async"><span>Guarda-corpo</span></button>
+<button type="button" data-c="guarda" data-g="fotos/69.webp"><img src="fotos/69-p.webp" width="720" height="542" alt="Guarda-corpo de vidro" loading="lazy" decoding="async"><span>Guarda-corpo</span></button>
+<button type="button" data-c="guarda" data-g="fotos/71.webp"><img src="fotos/71-p.webp" width="720" height="542" alt="Guarda-corpo de vidro" loading="lazy" decoding="async"><span>Guarda-corpo</span></button>
+<button type="button" data-c="guarda" data-g="fotos/76.webp"><img src="fotos/76-p.webp" width="720" height="542" alt="Guarda-corpo de vidro" loading="lazy" decoding="async"><span>Guarda-corpo</span></button>
+<button type="button" data-c="venez" data-g="fotos/42.webp"><img src="fotos/42-p.webp" width="709" height="528" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/5.webp"><img src="fotos/5-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/9.webp"><img src="fotos/9-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/51.webp"><img src="fotos/51-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/52.webp"><img src="fotos/52-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/53.webp"><img src="fotos/53-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/54.webp"><img src="fotos/54-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/59.webp"><img src="fotos/59-p.webp" width="720" height="542" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/63.webp"><img src="fotos/63-p.webp" width="720" height="542" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/72.webp"><img src="fotos/72-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/77.webp"><img src="fotos/77-p.webp" width="542" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/79.webp"><img src="fotos/79-p.webp" width="720" height="542" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+<button type="button" data-c="venez" data-g="fotos/123.webp"><img src="fotos/123-p.webp" width="479" height="720" alt="Veneziana, portão ou fechamento em alumínio" loading="lazy" decoding="async"><span>Venezianas e portões</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="videos" style="background:var(--bg2);border-block:1px solid var(--linha)">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Vídeos</p><h2>Obras em <em>movimento</em></h2><p>Veja de perto o acabamento e o deslizar das portas.</p></div>
+    <div class="vids">
+      <video src="videos/v1.mp4" poster="videos/v1.jpg" muted loop playsinline preload="none" aria-label="Vídeo de porta de correr de vidro"></video>
+      <video src="videos/v2.mp4" poster="videos/v2.jpg" muted loop playsinline preload="none" aria-label="Vídeo de fechamento de vidro em área gourmet"></video>
+      <video src="videos/v3.mp4" poster="videos/v3.jpg" muted loop playsinline preload="none" aria-label="Vídeo de espelho com iluminação em banheiro"></video>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="w">
+    <p class="eyebrow">Orçamento</p>
+    <h2>Gostou de alguma <em>obra</em>?</h2>
+    <p>Mande a foto que você gostou pelo WhatsApp e a gente faz igual, sob medida para o seu espaço.</p>
+    <div class="acoes"><a class="btn btn-or" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Pedir orçamento</a><a class="btn btn-line" href="../">Voltar ao site</a></div>
+  </div>
+</section>
+
+<footer class="rodape"><div class="w"><span>© Esquadrias Uberaba · Uberaba, MG</span><a href="https://zebubit.com.br" target="_blank" rel="noopener">Desenvolvido por <span class="zb">Zebubit Assessoria</span></a></div></footer>
+<p class="demo">Versão de demonstração preparada pela Zebubit.</p>
+
+<a class="zap" data-wa="Olá! Vi o portfólio da Esquadrias Uberaba e quero um orçamento." href="#" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.8 8.6c.3 3.1 2.6 5.4 5.8 5.8l1.1-1.2-1.7-1-.8.6c-.8-.4-1.5-1.1-1.9-1.9l.6-.8-1-1.7z"/></svg></a>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <button type="button" class="x" id="lbx" aria-label="Fechar">×</button>
+  <button type="button" class="pv" id="lbp" aria-label="Foto anterior">‹</button>
+  <img id="lbi" alt="">
+  <button type="button" class="nx" id="lbn" aria-label="Próxima foto">›</button>
+  <div class="c" id="lbc"></div>
+</div>
+
+<script>
+(function(){
+  var WHATS='5534988270211';
+  document.querySelectorAll('[data-wa]').forEach(function(a){
+    a.href='https://wa.me/'+WHATS+'?text='+encodeURIComponent(a.getAttribute('data-wa'));a.target='_blank';a.rel='noopener';
+  });
+  var topo=document.getElementById('topo'),prog=document.getElementById('prog'),tick=false;
+  function onScroll(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;topo.classList.toggle('on',y>30);prog.style.transform='scaleX('+(h>0?y/h:0)+')';tick=false;}
+  addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(onScroll);}},{passive:true});onScroll();
+  var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){var on=menu.classList.toggle('on');burger.setAttribute('aria-expanded',on);document.body.style.overflow=on?'hidden':'';});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('on');burger.setAttribute('aria-expanded','false');document.body.style.overflow='';});});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  // filtro
+  var itens=[].slice.call(document.querySelectorAll('#gal button')),chips=[].slice.call(document.querySelectorAll('.chips button'));
+  chips.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.getAttribute('data-f');chips.forEach(function(c){c.classList.toggle('on',c===b);});
+    itens.forEach(function(it){it.classList.toggle('esc',f!=='todas'&&it.getAttribute('data-c')!==f);});
+    var g=document.getElementById('gal'),top=g.getBoundingClientRect().top+scrollY-150;if(scrollY>top)scrollTo({top:top,behavior:'smooth'});
+  });});
+  // lightbox (navega só nas fotos visíveis)
+  var lb=document.getElementById('lb'),lbi=document.getElementById('lbi'),lbc=document.getElementById('lbc'),vis=[],i=0;
+  function show(){var b=vis[i];lbi.src=b.getAttribute('data-g');lbi.alt=b.querySelector('img').alt;lbc.textContent=b.querySelector('span').textContent+' · '+(i+1)+' de '+vis.length;}
+  itens.forEach(function(b){b.addEventListener('click',function(){vis=itens.filter(function(x){return !x.classList.contains('esc');});i=vis.indexOf(b);show();lb.classList.add('on');document.body.style.overflow='hidden';});});
+  function fecha(){lb.classList.remove('on');document.body.style.overflow='';lbi.removeAttribute('src');}
+  function mv(d){i=(i+d+vis.length)%vis.length;show();}
+  document.getElementById('lbx').onclick=fecha;document.getElementById('lbp').onclick=function(){mv(-1);};document.getElementById('lbn').onclick=function(){mv(1);};
+  lb.addEventListener('click',function(e){if(e.target===lb)fecha();});
+  addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')fecha();if(e.key==='ArrowLeft')mv(-1);if(e.key==='ArrowRight')mv(1);});
+  var sx=0;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;},{passive:true});
+  lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)mv(dx<0?1:-1);});
+  // vídeos tocam quando aparecem
+  var vio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.play().catch(function(){});}else e.target.pause();});},{threshold:.5});
+  document.querySelectorAll('.vids video').forEach(function(v){vio.observe(v);});
+})();
+</script>
+<script src="../atendente.js" data-origem="site" data-logo="../img/logo-mark.png" data-bottom="18" defer></script>
+</body>
+</html>
